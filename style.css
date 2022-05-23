@@ -1,0 +1,143 @@
+body {
+    margin: 0px;
+    text-align: center;
+}
+
+
+/*h1 and p has also default margin values.*/
+
+
+/*font families -font-family: 'Genos', sans-serif;
+font-family: 'Merienda One', cursive;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Sacramento', cursive;
+font-family: 'Yanone Kaffeesatz', sans-serif;
+*/
+
+h1 {
+    /* font-size: 562.5%;*/
+    /*16px is 100%. 16px=100%=1em*/
+    margin: 0px;
+    margin-bottom: 8px;
+    font-family: cursive
+    /* font-family: 'Sacramento', cursive;*/
+}
+
+h2 {
+    font-family: cursive;
+}
+
+p {
+    margin: 0px;
+    font-family: cursive;
+    font-size: 25px;
+    color: green;
+    padding-bottom: 20px;
+}
+
+.top-container {
+    background-color: #E4F9F5;
+    padding: 80px;
+    padding-bottom: 0px;
+    position: relative;
+}
+
+a {
+    text-decoration: none;
+    color: green;
+}
+
+.middle-container {
+    padding-top: 180px;
+    padding-bottom: 180px;
+}
+
+.bottom-container {
+    background-color: #E4F9F5;
+}
+
+.bottom-cloud {
+    position: absolute;
+}
+
+.top-cloud {
+    position: absolute;
+    top: 50px;
+    right: 400px;
+}
+
+.set-image {
+    width: 100px;
+    height: 100px;
+}
+
+.navbar {
+    position: relative;
+    padding-bottom: 200px;
+}
+
+.navimage {
+    position: absolute;
+    left: 100px;
+    top: 0px;
+}
+
+.home {
+    position: absolute;
+    right: 470px;
+    top: 50px;
+    font-size: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.projects {
+    position: absolute;
+    right: 350px;
+    top: 50px;
+    font-size: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.skills {
+    position: absolute;
+    right: 240px;
+    top: 50px;
+    font-size: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+a:active {
+    color: black;
+}
+
+a:hover {
+    color: black;
+}
+
+hr {
+    background-color: white;
+    border-style: none;
+    border-top-style: dotted;
+    border-width: 7px;
+    border-color: rgb(151, 199, 241);
+    /*This means now hr tag rectangle has no side, its literally zero pixel high. */
+    height: 0px;
+    width: 5%;
+    color: aqua;
+    /*we also can specify height and width in % of the entire height and width of webpage. */
+}
+
+.set-contact-img {
+    height: 50px;
+    width: 50px;
+    padding-top: 30px;
+    padding-left: 10px;
+    padding-bottom: 20px;
+}
+
+.contact {
+    width: 100px;
+    height: 100px;
+    padding-top: 50px;
+}
