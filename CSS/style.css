@@ -34,6 +34,7 @@ p {
     font-size: 25px;
     color: green;
     padding-bottom: 20px;
+    line-height: 15px;
 }
 
 .top-container {
@@ -140,4 +141,12 @@ hr {
     width: 100px;
     height: 100px;
     padding-top: 50px;
+}
+
+.project-link {
+    background-color: blue;
+    border-radius: 20px;
+    color: white;
+    padding: 10px 20px;
+    margin: 20px;
 }
