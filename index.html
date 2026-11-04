@@ -1,427 +1,113 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
-    <link rel="stylesheet" href="styles/styles.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer"
-    />
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#141414">
+  <meta name="description" content="Bajrang Lal is a Software Engineer at HRS Group, IIT Ropar alumnus, and backend developer building Java and AWS services.">
+  <title>Bajrang Lal — Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Oswald:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer">
+  <link rel="stylesheet" href="styles/styles.css">
 </head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="#home" aria-label="Bajrang Lal home">B<span>.</span></a>
+    <nav class="main-nav" aria-label="Main navigation">
+      <a class="nav-link is-active" href="#home">Home</a>
+      <a class="nav-link" href="#experience">Experience</a>
+      <a class="nav-link" href="#projects">Projects</a>
+      <a class="nav-link" href="#about">About</a>
+      <a class="nav-link" href="#highlights">Highlights</a>
+      <a class="nav-link" href="#contact">Contact</a>
+    </nav>
+    <a class="top-cta" href="#projects">Explore work <i class="fa-solid fa-arrow-right"></i></a>
+  </header>
 
-<body class="main-content">
-    <header class="container header active" id="home">
-        <div class="header-content">
-            <div class="left-header">
-                <div class="h-shape"></div>
-                <div>
-                    <img src="img/Bajrang.jpeg" alt="" class="my-image">
-                </div>
-            </div>
-            <div class="right-header">
-                <h1 class="name">
-                    Hi, I'm <span>Bajrang Lal</span> A Programmer.
-                </h1>
-                <p> I'm a Final year student 👦 at Indian Institute of Technology Ropar (IIT-RPR).<br> I 💖 to explore new things and I gives my best to implement them.<br> Currently I'm learning web development and focusing on Competative programming (CP)
-                    and DSA.<br>
-                </p>
-                <h1>My Hobbies</h1>
-                <p>1. Playing Chess.<br> 2. Solving hard puzzles.<br> 3. Reading Self Growth books.<br> 4. Writing. <br></p>
-            </div>
+  <main>
+    <section class="hero" id="home" aria-labelledby="hero-title">
+      <div class="hero-art" aria-hidden="true"></div>
+      <div class="hero-shade" aria-hidden="true"></div>
+      <div class="hero-inner">
+        <p class="eyebrow"><span class="live-dot"></span> SOFTWARE ENGINEER · HRS GROUP</p>
+        <h1 id="hero-title">BAJRANG<br><span>LAL</span></h1>
+        <div class="hero-meta"><span class="n-mark">N</span><span>BACKEND ENGINEERING</span><span class="meta-rule"></span><span>JAVA · AWS · MICROSERVICES</span></div>
+        <p class="hero-copy">I build backend services and cloud workflows for enterprise products. IIT Ropar Computer Science graduate, currently working on eRFP, hotel sourcing, and event-driven systems.</p>
+        <div class="hero-actions">
+          <a class="button button-light" href="#experience"><i class="fa-solid fa-play"></i> View experience</a>
+          <a class="button button-quiet" href="#projects"><i class="fa-solid fa-circle-info"></i> Selected projects</a>
         </div>
-    </header>
-    <main>
-        <section class="container about" id="about">
-            <div class="main-title">
-                <h2>My<span>Skills</span><span class="bg-text">My Skills</span></h2>
-            </div>
-            <div class="about-stats">
-                <h4 class="stat-title">My Skills</h4>
-                <div class="progress-bars">
-                    <div class="progress-bar">
-                        <p class="prog-title">HTML</p>
-                        <div class="progress-con">
-                            <p class="prog-text">90%</p>
-                            <div class="progress">
-                                <span class="node"></span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="progress-bar">
-                        <p class="prog-title">CSS</p>
-                        <div class="progress-con">
-                            <p class="prog-text">95%</p>
-                            <div class="progress">
-                                <span class="css"></span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="progress-bar">
-                        <p class="prog-title">Javascript</p>
-                        <div class="progress-con">
-                            <p class="prog-text">75%</p>
-                            <div class="progress">
-                                <span class="js"></span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="progress-bar">
-                        <p class="prog-title">ReactJS</p>
-                        <div class="progress-con">
-                            <p class="prog-text">70%</p>
-                            <div class="progress">
-                                <span class="react"></span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="progress-bar">
-                        <p class="prog-title">NodeJs</p>
-                        <div class="progress-con">
-                            <p class="prog-text">85%</p>
-                            <div class="progress">
-                                <span class="html"></span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="progress-bar">
-                        <p class="prog-title">Python</p>
-                        <div class="progress-con">
-                            <p class="prog-text">75%</p>
-                            <div class="progress">
-                                <span class="js"></span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="progress-bar">
-                        <p class="prog-title">C Programming</p>
-                        <div class="progress-con">
-                            <p class="prog-text">95%</p>
-                            <div class="progress">
-                                <span class="css"></span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="progress-bar">
-                        <p class="prog-title">C++ Programming</p>
-                        <div class="progress-con">
-                            <p class="prog-text">90%</p>
-                            <div class="progress">
-                                <span class="python"></span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="progress-bar">
-                        <p class="prog-title">MongoDB</p>
-                        <div class="progress-con">
-                            <p class="prog-text">90%</p>
-                            <div class="progress">
-                                <span class="node"></span>
-                            </div>
-                        </div>
-                    </div
-                </div>
-            </div>
+      </div>
+      <div class="hero-index"><span>01</span> / 05</div>
+      <div class="hero-caption">A little curiosity goes a long way.</div>
+    </section>
 
-        </section>
-        <section class="container" id="portfolio">
-            <div class="main-title">
-                <h2>My <span>Projects</span><span class="bg-text">My Work</span></h2>
-            </div>
-            <p class="port-text">
-                Here are some of My Projects.
-            </p>
-            <div class="portfolios">
-                <div class="portfolio-item">
-                    <div class="image">
-                        <img src="img/quote Generator.jpeg" alt=""> <span style="text-align: center;"> 1. Random Quote Generator.</span>
-                    </div>
-                    <div class="hover-items">
-                        <h3 style="text-align: center;">Random Quote Generator</h3>
-                        <div>
-                            <a href="https://github.com/Bajrang01/Quote-Generator" class="demo">
-                                Source Code
-                            </a>
-                            <a href="https://bajrang01.github.io/Quote-Generator/" class="demo">Live Demo</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="portfolio-item">
-                    <div class="image">
-                        <img src="img/Dice.jpg" alt=""> <span>2. Dice Game.</span>
-                    </div>
-                    <div class="hover-items">
-                        <h3>Dice Game</h3>
-                        <div>
-                            <a href="https://github.com/Bajrang01/DICE-GAME" class="demo">
-                                Source Code
-                            </a>
-                            <a href="https://bajrang01.github.io/DICE-GAME/" class="demo">Live Demo</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="portfolio-item">
-                    <div class="image">
-                        <img src="img/Drum Kit.jpg" alt=""> <span>3. Drum Kit.</span>
-                    </div>
-                    <div class="hover-items">
-                        <h3>Drum kit</h3>
-                        <div>
-                            <a href="https://github.com/Bajrang01/Drum-Kit" class="demo">
-                                Source Code
-                            </a>
-                            <a href="https://bajrang01.github.io/Drum-Kit/" class="demo">Live Demo</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="portfolio-item">
-                    <div class="image">
-                        <img src="img/Spotify.jpg" alt=""> <span>4. Spotify Clone.</span>
-                    </div>
-                    <div class="hover-items">
-                        <h3>Spotify Clone</h3>
-                        <div>
-                            <a href="https://github.com/Bajrang01/Spotify-Clone-Landing-Page" class="demo">
-                                Source Code
-                            </a>
-                            <a href="https://bajrang01.github.io/Spotify-Clone-Landing-Page/" class="demo">Live Demo</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="portfolio-item">
-                    <div class="image">
-                        <img src="img/Programiz.jpg" alt=""> <span>5. Programiz Clone.</span>
-                    </div>
-                    <div class="hover-items">
-                        <h3>Programming Clone.</h3>
-                        <div>
-                            <a href="https://github.com/Bajrang01/Programiz_clone_landing_Page" class="demo">
-                                Source Code
-                            </a>
-                            <a href="https://bajrang01.github.io/Programiz_clone_landing_Page/" class="demo">Live Demo</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="portfolio-item">
-                    <div class="image">
-                        <img src="img/Timer.png" alt=""> <span>6. Countdown Timer.</span>
-                    </div>
-                    <div class="hover-items">
-                        <h3>CountDown Timer</h3>
-                        <div>
-                            <a href="https://github.com/Bajrang01/CountDown-Timer" class="demo">
-                                Source Code
-                            </a>
-                            <a href="https://bajrang01.github.io/CountDown-Timer/" class="demo">Live Demo</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="portfolio-item">
-                    <div class="image">
-                        <img src="img/Tindog.jpg" alt=""> <span>7. Tin-Dog.</span>
-                    </div>
-                    <div class="hover-items">
-                        <h3>Tin-Dog</h3>
-                        <div>
-                            <a href="https://github.com/Bajrang01/Tin-Dog" class="demo">
-                                Source Code
-                            </a>
-                            <a href=" https://bajrang01.github.io/Tin-Dog/" class="demo">Live Demo</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="portfolio-item">
-                    <div class="image">
-                        <img src="img/Hollywood-img.jpg" alt=""> <span>8. My-Movies.</span>
-                    </div>
-                    <div class="hover-items">
-                        <h3>My-Movies</h3>
-                        <div>
-                            <a href="https://github.com/Bajrang01/My-Movies" class="demo">
-                                Source Code
-                            </a>
-                            <a href="https://bajrang01.github.io/My-Movies/" class="demo">Live Demo</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
- <!--       <section class="container" id="blogs">
-            <div class="blogs-content">
-                <div class="main-title">
-                    <h2>My <span>Blogs</span><span class="bg-text">My Blogs</span></h2>
-                </div>
-                <div class="blogs">
-                    <div class="blog">
-                        <img src="img/port6.jpg" alt="">
-                        <div class="blog-text">
-                            <h4>
-                                How to Create Your Own Website
-                            </h4>
-                            <p>
-                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloribus natus voluptas, eos obcaecati recusandae amet?
-                            </p>
-                        </div>
-                    </div>
-                    <div class="blog">
-                        <img src="img/blog1.jpg" alt="">
-                        <div class="blog-text">
-                            <h4>
-                                How to Become an Expert in Web Design
-                            </h4>
-                            <p>
-                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloribus natus voluptas, eos obcaecati recusandae amet?
-                            </p>
-                        </div>
-                    </div>
-                    <div class="blog">
-                        <img src="img/blog2.jpg" alt="">
-                        <div class="blog-text">
-                            <h4>
-                                Become a Web Designer in 10 Days
-                            </h4>
-                            <p>
-                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloribus natus voluptas, eos obcaecati recusandae amet?
-                            </p>
-                        </div>
-                    </div>
-                    <div class="blog">
-                        <img src="img/blog3.jpg" alt="">
-                        <div class="blog-text">
-                            <h4>
-                                Debbuging made easy with Web Inspector
-                            </h4>
-                            <p>
-                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloribus natus voluptas, eos obcaecati recusandae amet?
-                            </p>
-                        </div>
-                    </div>
-                    <div class="blog">
-                        <img src="img/port1.jpg" alt="">
-                        <div class="blog-text">
-                            <h4>
-                                Get started with Web Design and UI Design
-                            </h4>
-                            <p>
-                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloribus natus voluptas, eos obcaecati recusandae amet?
-                            </p>
-                        </div>
-                    </div>
-                    <div class="blog">
-                        <img src="img/port3.jpg" alt="">
-                        <div class="blog-text">
-                            <h4>
-                                This is what you need to know about Web Design
-                            </h4>
-                            <p>
-                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloribus natus voluptas, eos obcaecati recusandae amet?
-                            </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
--->
-        <section class="container contact" id="contact">
-            <div class="contact-container">
-                <div class="main-title">
-                    <h2>Contact <span>Me</span><span class="bg-text">Contact</span></h2>
-                </div>
-                <div class="contact-content-con">
-                    <div class="left-contact">
-                        <h4>Contact me here</h4>
-                        <p>
-                            If you have any query, regarding anything or you want to contact me then here are my contact details. </p>
-                        <div class="contact-info">
-                            <div class="contact-item">
-                                <div class="icon">
-                                    <i class="fas fa-map-marker-alt"></i>
-                                    <span>Location - Rajasthan (India), 334402</span>
-                                </div>
-                            </div>
-                            <div class="contact-item">
-                                <div class="icon">
-                                    <i class="fas fa-envelope"></i>
-                                    <span>Email - bajrang11082002@gmail.com</span>
-                                </div>
-                            </div>
-                            <div class="contact-item">
-                                <div class="icon">
-                                    <i class="fas fa-user-graduate"></i>
-                                    <span>Mobile Number - 8824136822</span>
-                                </div>
-                            </div>
-                            <div class="contact-item">
-                                <div class="icon">
-                                    <i class="fas fa-globe-africa"></i> Languages - English, Hindi.
-                                </div>
-                            </div>
-                        </div>
-                        <div class="contact-icons">
-                            <div class="contact-icon">
-                                <a href="https://www.linkedin.com/in/bajrang-lal-589a4423a" target="_blank">
-                                    <i class="fab fa-linkedin"></i>
-                                </a>
-                                <a href="https://www.instagram.com/bajrang1108/" target="_blank">
-                                    <i class="fab fa-instagram"></i>
-                                </a>
-                                <a href="https://github.com/Bajrang01?tab=repositories" target="_blank">
-                                    <i class="fab fa-github"></i>
-                                </a>
-                                <a href="https://wa.me/8824136822" target="_blank">
-                                    <i class="fab fa-whatsapp"></i>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="right-contact">
-                        <form action="https://formsubmit.co/bajrang11082002@gmail.com" method="post" class="contact-form">
-                            <div class="input-control i-c-2">
-                                <input name="name" type="text" required placeholder="YOUR NAME">
-                                <input name="email" type="email" required placeholder="YOUR EMAIL">
-                            </div>
-                            <div class="input-control">
-                                <input name="subject" type="text" required placeholder="ENTER SUBJECT">
-                            </div>
-                            <div class="input-control">
-                                <textarea name="message" cols="15" rows="8" placeholder="Message Here..."></textarea>
-                            </div>
-                            <div>
-                                <input type="submit" name="submit" value="Send Message" class="submit">
-                            </div>
-                        </form>
-                    </div>
-                </div>
-            </div>
-        </section>
-    </main>
+    <section class="content-section project-section" id="projects" aria-labelledby="projects-title">
+      <div class="section-heading">
+        <div><p class="section-kicker">THE COLLECTION</p><h2 id="projects-title">Projects <span>to press play on</span></h2></div>
+        <p class="section-note">A selection of experiments, interfaces, and small tools built while learning.</p>
+      </div>
+      <div class="shelf-head"><h3><span class="shelf-accent"></span> Academic & independent work</h3><span class="shelf-count">04 PROJECTS</span></div>
+      <div class="project-row academic-projects">
+        <article class="project-card text-project"><div class="text-project-top"><span class="project-type">FULL-STACK · IIT ROPAR</span><a class="source-link" href="https://github.com/Bajrang01/Leave-Management-DEP" target="_blank" rel="noopener noreferrer" aria-label="Leave Management System source code"><i class="fa-brands fa-github"></i></a></div><h3>Leave Management System</h3><p>Faculty, staff, and student leave portal built with React, Node.js, Express, and MongoDB.</p><span class="project-period">JAN — MAY 2023</span></article>
+        <article class="project-card text-project"><div class="text-project-top"><span class="project-type">FULL-STACK · IIT ROPAR</span><a class="source-link" href="https://github.com/RajputanaM/cs305_proj1" target="_blank" rel="noopener noreferrer" aria-label="E-Commerce Platform source code"><i class="fa-brands fa-github"></i></a></div><h3>E-Commerce Platform</h3><p>Product management and user workflows supported by React, Node.js, Express, and MongoDB APIs.</p><span class="project-period">MAR — APR 2023</span></article>
+        <article class="project-card text-project"><div class="text-project-top"><span class="project-type">BACKEND · JAVA</span><a class="source-link" href="https://github.com/Bajrang01/IRCTC-Ticket-Booking-System" target="_blank" rel="noopener noreferrer" aria-label="Railway Reservation System source code"><i class="fa-brands fa-github"></i></a></div><h3>Railway Reservation System</h3><p>Multi-user ticket booking system designed to support concurrent reservations.</p><span class="project-period">ACADEMIC PROJECT</span></article>
+        <article class="project-card text-project"><div class="text-project-top"><span class="project-type">ACADEMIC SYSTEM</span><a class="source-link" href="https://github.com/Bajrang01/Academic_Management_System" target="_blank" rel="noopener noreferrer" aria-label="Academic Management System source code"><i class="fa-brands fa-github"></i></a></div><h3>Academic Management System</h3><p>A system for managing academic operations and related workflows.</p><span class="project-period">ACADEMIC PROJECT</span></article>
+      </div>
+      <div class="shelf-head legacy-shelf"><h3><span class="shelf-accent"></span> Earlier web experiments</h3><span class="shelf-count">PERSONAL BUILDS</span></div>
+      <div class="project-row">
+        <article class="project-card"><a class="project-image" href="https://bajrang01.github.io/Quote-Generator/" target="_blank" rel="noopener noreferrer"><img src="img/quote%20Generator.jpeg" alt="Random Quote Generator project preview"><span class="image-index">01</span><span class="play-mark"><i class="fa-solid fa-arrow-up-right-from-square"></i></span></a><div class="project-info"><div><h3>Random Quote Generator</h3><p>Web · JavaScript</p></div><a class="source-link" href="https://github.com/Bajrang01/Quote-Generator" target="_blank" rel="noopener noreferrer" aria-label="Random Quote Generator source code"><i class="fa-brands fa-github"></i></a></div></article>
+        <article class="project-card"><a class="project-image" href="https://bajrang01.github.io/Spotify-Clone-Landing-Page/" target="_blank" rel="noopener noreferrer"><img src="img/Spotify.jpg" alt="Spotify Clone project preview"><span class="image-index">04</span><span class="play-mark"><i class="fa-solid fa-arrow-up-right-from-square"></i></span></a><div class="project-info"><div><h3>Spotify Clone</h3><p>Interface · HTML/CSS</p></div><a class="source-link" href="https://github.com/Bajrang01/Spotify-Clone-Landing-Page" target="_blank" rel="noopener noreferrer" aria-label="Spotify Clone source code"><i class="fa-brands fa-github"></i></a></div></article>
+        <article class="project-card"><a class="project-image" href="https://bajrang01.github.io/Programiz_clone_landing_Page/" target="_blank" rel="noopener noreferrer"><img src="img/Programiz.jpg" alt="Programiz Clone project preview"><span class="image-index">05</span><span class="play-mark"><i class="fa-solid fa-arrow-up-right-from-square"></i></span></a><div class="project-info"><div><h3>Programiz Clone</h3><p>Interface · Front-end</p></div><a class="source-link" href="https://github.com/Bajrang01/Programiz_clone_landing_Page" target="_blank" rel="noopener noreferrer" aria-label="Programiz Clone source code"><i class="fa-brands fa-github"></i></a></div></article>
+        <article class="project-card"><a class="project-image" href="https://bajrang01.github.io/Tin-Dog/" target="_blank" rel="noopener noreferrer"><img src="img/Tindog.jpg" alt="Tin-Dog project preview"><span class="image-index">07</span><span class="play-mark"><i class="fa-solid fa-arrow-up-right-from-square"></i></span></a><div class="project-info"><div><h3>Tin-Dog</h3><p>Landing page · Bootstrap</p></div><a class="source-link" href="https://github.com/Bajrang01/Tin-Dog" target="_blank" rel="noopener noreferrer" aria-label="Tin-Dog source code"><i class="fa-brands fa-github"></i></a></div></article>
+      </div>
+    </section>
 
-    <div class="controls">
-        <div class="control active-btn" data-id="home">
-            <i class="fas fa-home"></i>
-        </div>
-        <div class="control" data-id="about">
-            <i class="fas fa-user"></i>
-        </div>
-        <div class="control" data-id="portfolio">
-            <i class="fas fa-briefcase"></i>
-        </div>
-     <!--   <div class="control" data-id="blogs">
-            <i class="far fa-newspaper"></i>
-        </div>
--->
-        <div class="control" data-id="contact">
-            <i class="fas fa-envelope-open"></i>
-        </div>
-    </div>
-    <div class="theme-btn">
-        <i class="fas fa-adjust"></i>
-    </div>
-    <script src="app.js"></script>
+    <section class="experience-section content-section" id="experience" aria-labelledby="experience-title">
+      <div class="section-heading">
+        <div><p class="section-kicker">CURRENT CHAPTER · JUL 2024 — PRESENT</p><h2 id="experience-title">Building at <span>HRS Group</span></h2></div>
+        <p class="section-note">Software Engineer · Mohali, India</p>
+      </div>
+      <p class="experience-lede">Developing enterprise eRFP services that connect hotel sourcing, procurement workflows, and integrations.</p>
+      <div class="experience-grid">
+        <article class="experience-item"><span class="experience-icon"><i class="fa-solid fa-diagram-project"></i></span><div><h3>eRFP platform services</h3><p>Built and maintained Java Spring Boot microservices and REST APIs for RFP lifecycles, hotel sourcing, chain integrations, invitations, and offer workflows.</p></div></article>
+        <article class="experience-item"><span class="experience-icon"><i class="fa-solid fa-hotel"></i></span><div><h3>Hotel sourcing & pricing</h3><p>Delivered hotel discovery, map-based search, rate and breakfast configuration, hotel history, and India-specific VAT/GST pricing calculations.</p></div></article>
+        <article class="experience-item"><span class="experience-icon"><i class="fa-solid fa-lock"></i></span><div><h3>Secure cloud workflows</h3><p>Implemented AWS KMS and Secrets Manager credential encryption, decryption, rotation, and secure database configuration retrieval.</p></div></article>
+        <article class="experience-item"><span class="experience-icon"><i class="fa-solid fa-bolt"></i></span><div><h3>Event-driven processing</h3><p>Created Python and AWS Lambda workflows with SQS, DynamoDB, and MySQL for eligibility checks and recipient resolution.</p></div></article>
+        <article class="experience-item"><span class="experience-icon"><i class="fa-solid fa-cloud-arrow-up"></i></span><div><h3>Platform & infrastructure</h3><p>Contributed to Redis-to-Valkey migration and infrastructure automation with Docker, Kubernetes, Helm, Terraform, and GitHub Actions.</p></div></article>
+        <article class="experience-item"><span class="experience-icon"><i class="fa-solid fa-chart-line"></i></span><div><h3>Reliability & observability</h3><p>Enhanced backend capabilities and platform upgrades; used Kibana, New Relic, Grafana, and related monitoring tools to investigate issues.</p></div></article>
+      </div>
+    </section>
+
+    <section class="about-section content-section" id="about" aria-labelledby="about-title">
+      <div class="about-photo"><img src="img/Bajrang.jpeg" alt="Portrait of Bajrang Lal"><span class="photo-tag">CURRENTLY LEARNING</span></div>
+      <div class="about-copy"><p class="section-kicker">ENGINEERING PROFILE</p><h2 id="about-title">From computer science<br><span>to production systems.</span></h2><p class="about-intro">I’m Bajrang Lal, a Software Engineer at HRS Group and a Computer Science and Engineering graduate of IIT Ropar (B.Tech, 2020–2024).</p><p class="about-detail">My work centers on backend engineering: Java and Spring Boot services, REST APIs, event-driven systems, cloud infrastructure, and operational reliability. I enjoy understanding a system end to end and making its workflows secure, observable, and maintainable.</p>
+        <div class="skill-block"><div class="skill-title"><h3>Engineering toolkit</h3><span>FROM MY RESUME</span></div><div class="skill-list"><span>Java</span><span>Spring Boot</span><span>Spring Security</span><span>Python</span><span>SQL</span><span>C / C++</span><span>MySQL</span><span>Redis / Valkey</span><span>DynamoDB</span><span>AWS</span><span>Docker</span><span>Kubernetes</span><span>Terraform</span><span>Helm</span><span>GitHub Actions</span><span>JUnit / Mockito</span><span>REST APIs</span><span>Microservices</span><span>Prometheus</span><span>Grafana</span></div></div>
+        <a class="text-link" href="https://github.com/Bajrang01?tab=repositories" target="_blank" rel="noopener noreferrer">Find me on GitHub <i class="fa-solid fa-arrow-right"></i></a>
+      </div>
+    </section>
+
+    <section class="resume-section content-section" id="highlights" aria-labelledby="highlights-title">
+      <div class="section-heading"><div><p class="section-kicker">HIGHLIGHTS</p><h2 id="highlights-title">The milestones <span>behind the work</span></h2></div></div>
+      <div class="highlight-grid">
+        <article class="highlight-item"><span class="highlight-value">8</span><h3>CodeChef global rank</h3><p>January Long II · 2022</p></article>
+        <article class="highlight-item"><span class="highlight-value">109</span><h3>CodeChef global rank</h3><p>June Long Two · 2022</p></article>
+        <article class="highlight-item"><span class="highlight-value">106</span><h3>CodeChef global rank</h3><p>Starters 104 · 2023</p></article>
+        <article class="highlight-item"><span class="highlight-value">1793</span><h3>Maximum CodeChef rating</h3><p>Achieved · 2023</p></article>
+        <article class="highlight-item"><span class="highlight-value">Top 2%</span><h3>JEE Advanced</h3><p>Among 2.5 lakh qualified aspirants · 2020</p></article>
+      </div>
+      <div class="education-strip"><div><span class="education-label">EDUCATION</span><strong>B.Tech · Computer Science and Engineering</strong><span>Indian Institute of Technology, Ropar</span></div><span class="education-years">2020 — 2024</span></div>
+      <div class="courses-line"><span>COURSEWORK</span><p>Data Structures · Database Systems · Operating Systems · Software Engineering</p></div>
+    </section>
+
+    <section class="contact-section content-section" id="contact" aria-labelledby="contact-title">
+      <div><p class="section-kicker">NEXT UP</p><h2 id="contact-title">Have a good<br><span>project in mind?</span></h2><p class="contact-lede">I’m always glad to connect about learning, collaboration, or interesting ideas.</p></div>
+      <div class="contact-side"><a class="button button-red" href="mailto:bajrang.lal.iitrpr@gmail.com"><i class="fa-regular fa-envelope"></i> Get in touch</a><p class="email-line">bajrang.lal.iitrpr@gmail.com</p><div class="social-links"><a href="https://www.linkedin.com/in/bajrang-lal-589a4423a/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a><a href="https://github.com/Bajrang01" target="_blank" rel="noopener noreferrer" aria-label="GitHub"><i class="fa-brands fa-github"></i></a><a href="https://www.codechef.com/users/bajrang07" target="_blank" rel="noopener noreferrer" aria-label="CodeChef profile"><i class="fa-solid fa-code"></i></a></div><p class="location-line"><i class="fa-solid fa-location-dot"></i> Mohali, India · HRS Group</p><p class="phone-line">+91 8824136822</p></div>
+    </section>
+  </main>
+  <footer class="site-footer"><a class="brand" href="#home" aria-label="Back to top">B<span>.</span></a><p>Software Engineer · HRS Group</p><span>© <span id="year"></span> · BAJRANG LAL</span></footer>
+  <script src="app.js"></script>
 </body>
-
 </html>
